@@ -1,0 +1,23 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #181921;
+    text-align: center;
+    margin: 0px;
+}
+
+.container {
+    position: relative;
+}
+
+.child {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.content {
+    font-weight: bold;
+    font-size: 22px;
+    color: #757e87;
+}
